@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDD8EED2605D2C0C762C025 /* Pods_PlayoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9514B24663DE78BB03241D /* Pods_PlayoDemo.framework */; };
+		71DFAB552854AF35006EDA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB542854AF35006EDA8B /* AppDelegate.swift */; };
+		71DFAB572854AF35006EDA8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB562854AF35006EDA8B /* SceneDelegate.swift */; };
+		71DFAB592854AF35006EDA8B /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB582854AF35006EDA8B /* NewsVC.swift */; };
+		71DFAB5C2854AF35006EDA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DFAB5A2854AF35006EDA8B /* Main.storyboard */; };
+		71DFAB5E2854AF38006EDA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DFAB5D2854AF38006EDA8B /* Assets.xcassets */; };
+		71DFAB612854AF38006EDA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DFAB5F2854AF38006EDA8B /* LaunchScreen.storyboard */; };
+		71DFAB6C2854AF38006EDA8B /* PlayoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB6B2854AF38006EDA8B /* PlayoDemoTests.swift */; };
+		71DFAB762854AF38006EDA8B /* PlayoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB752854AF38006EDA8B /* PlayoDemoUITests.swift */; };
+		71DFAB782854AF38006EDA8B /* PlayoDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DFAB772854AF38006EDA8B /* PlayoDemoUITestsLaunchTests.swift */; };
+		71E8D1C62854B5950038CE27 /* NewsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D1C52854B5950038CE27 /* NewsTableCell.swift */; };
+		71E8D1C82854B89B0038CE27 /* NewsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D1C72854B89B0038CE27 /* NewsDataModel.swift */; };
+		71E8D1CB2854FFCE0038CE27 /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D1CA2854FFCE0038CE27 /* NewsDetailVC.swift */; };
+		71E8D1CE285511880038CE27 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D1CD285511880038CE27 /* NetworkManger.swift */; };
+		B794B9150069CC8F349FA501 /* Pods_PlayoDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C3D0B3F4E1453FED3110DC /* Pods_PlayoDemoTests.framework */; };
+		C9B70122E832170E76E0A157 /* Pods_PlayoDemo_PlayoDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F31B16E3AE205A9F90645 /* Pods_PlayoDemo_PlayoDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71DFAB682854AF38006EDA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DFAB492854AF35006EDA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DFAB502854AF35006EDA8B;
+			remoteInfo = PlayoDemo;
+		};
+		71DFAB722854AF38006EDA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DFAB492854AF35006EDA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DFAB502854AF35006EDA8B;
+			remoteInfo = PlayoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CB3B4598D2E03D80F9545E /* Pods-PlayoDemo-PlayoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemo-PlayoDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-PlayoDemo-PlayoDemoUITests/Pods-PlayoDemo-PlayoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6837644CCAC9A14B72FB55C1 /* Pods-PlayoDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayoDemoTests/Pods-PlayoDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71DFAB512854AF35006EDA8B /* PlayoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DFAB542854AF35006EDA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71DFAB562854AF35006EDA8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71DFAB582854AF35006EDA8B /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		71DFAB5B2854AF35006EDA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71DFAB5D2854AF38006EDA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71DFAB602854AF38006EDA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71DFAB622854AF38006EDA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DFAB672854AF38006EDA8B /* PlayoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DFAB6B2854AF38006EDA8B /* PlayoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoDemoTests.swift; sourceTree = "<group>"; };
+		71DFAB712854AF38006EDA8B /* PlayoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DFAB752854AF38006EDA8B /* PlayoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoDemoUITests.swift; sourceTree = "<group>"; };
+		71DFAB772854AF38006EDA8B /* PlayoDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71E8D1C52854B5950038CE27 /* NewsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableCell.swift; sourceTree = "<group>"; };
+		71E8D1C72854B89B0038CE27 /* NewsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataModel.swift; sourceTree = "<group>"; };
+		71E8D1CA2854FFCE0038CE27 /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
+		71E8D1CD285511880038CE27 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		7C9514B24663DE78BB03241D /* Pods_PlayoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835F31B16E3AE205A9F90645 /* Pods_PlayoDemo_PlayoDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoDemo_PlayoDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C3D0B3F4E1453FED3110DC /* Pods_PlayoDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08022D144BB99F3933E090C /* Pods-PlayoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemo.release.xcconfig"; path = "Target Support Files/Pods-PlayoDemo/Pods-PlayoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BFEE84D0FB33BF22B9B95978 /* Pods-PlayoDemo-PlayoDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemo-PlayoDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlayoDemo-PlayoDemoUITests/Pods-PlayoDemo-PlayoDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E162B4F583CB269A61A5443D /* Pods-PlayoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemo.debug.xcconfig"; path = "Target Support Files/Pods-PlayoDemo/Pods-PlayoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB7C05671DF9A004802041D4 /* Pods-PlayoDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoDemoTests.release.xcconfig"; path = "Target Support Files/Pods-PlayoDemoTests/Pods-PlayoDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DFAB4E2854AF35006EDA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDD8EED2605D2C0C762C025 /* Pods_PlayoDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB642854AF38006EDA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B794B9150069CC8F349FA501 /* Pods_PlayoDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB6E2854AF38006EDA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B70122E832170E76E0A157 /* Pods_PlayoDemo_PlayoDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0E31A5453E3192EBBDD38F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9514B24663DE78BB03241D /* Pods_PlayoDemo.framework */,
+				835F31B16E3AE205A9F90645 /* Pods_PlayoDemo_PlayoDemoUITests.framework */,
+				93C3D0B3F4E1453FED3110DC /* Pods_PlayoDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71DFAB482854AF35006EDA8B = {
+			isa = PBXGroup;
+			children = (
+				71DFAB532854AF35006EDA8B /* PlayoDemo */,
+				71DFAB6A2854AF38006EDA8B /* PlayoDemoTests */,
+				71DFAB742854AF38006EDA8B /* PlayoDemoUITests */,
+				71DFAB522854AF35006EDA8B /* Products */,
+				B0CE5CAD75D22BB74CB42D89 /* Pods */,
+				2F0E31A5453E3192EBBDD38F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71DFAB522854AF35006EDA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB512854AF35006EDA8B /* PlayoDemo.app */,
+				71DFAB672854AF38006EDA8B /* PlayoDemoTests.xctest */,
+				71DFAB712854AF38006EDA8B /* PlayoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71DFAB532854AF35006EDA8B /* PlayoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB622854AF38006EDA8B /* Info.plist */,
+				71E8D1BD2854B0970038CE27 /* MVC */,
+			);
+			path = PlayoDemo;
+			sourceTree = "<group>";
+		};
+		71DFAB6A2854AF38006EDA8B /* PlayoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB6B2854AF38006EDA8B /* PlayoDemoTests.swift */,
+			);
+			path = PlayoDemoTests;
+			sourceTree = "<group>";
+		};
+		71DFAB742854AF38006EDA8B /* PlayoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB752854AF38006EDA8B /* PlayoDemoUITests.swift */,
+				71DFAB772854AF38006EDA8B /* PlayoDemoUITestsLaunchTests.swift */,
+			);
+			path = PlayoDemoUITests;
+			sourceTree = "<group>";
+		};
+		71E8D1BD2854B0970038CE27 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1CC285511610038CE27 /* NetworkManger */,
+				71E8D1C32854B1070038CE27 /* AppDelegate */,
+				71E8D1BE2854B09D0038CE27 /* Model */,
+				71E8D1BF2854B0A20038CE27 /* View */,
+				71E8D1C02854B0A80038CE27 /* Controller */,
+				71DFAB5D2854AF38006EDA8B /* Assets.xcassets */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		71E8D1BE2854B09D0038CE27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1C72854B89B0038CE27 /* NewsDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71E8D1BF2854B0A20038CE27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1C42854B5750038CE27 /* Cells */,
+				71E8D1C12854B0BF0038CE27 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71E8D1C02854B0A80038CE27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1C92854FFAE0038CE27 /* NewsDetailViewController */,
+				71E8D1C22854B0D10038CE27 /* NewsViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71E8D1C12854B0BF0038CE27 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB5A2854AF35006EDA8B /* Main.storyboard */,
+				71DFAB5F2854AF38006EDA8B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		71E8D1C22854B0D10038CE27 /* NewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB582854AF35006EDA8B /* NewsVC.swift */,
+			);
+			path = NewsViewController;
+			sourceTree = "<group>";
+		};
+		71E8D1C32854B1070038CE27 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				71DFAB542854AF35006EDA8B /* AppDelegate.swift */,
+				71DFAB562854AF35006EDA8B /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		71E8D1C42854B5750038CE27 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1C52854B5950038CE27 /* NewsTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		71E8D1C92854FFAE0038CE27 /* NewsDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1CA2854FFCE0038CE27 /* NewsDetailVC.swift */,
+			);
+			path = NewsDetailViewController;
+			sourceTree = "<group>";
+		};
+		71E8D1CC285511610038CE27 /* NetworkManger */ = {
+			isa = PBXGroup;
+			children = (
+				71E8D1CD285511880038CE27 /* NetworkManger.swift */,
+			);
+			path = NetworkManger;
+			sourceTree = "<group>";
+		};
+		B0CE5CAD75D22BB74CB42D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E162B4F583CB269A61A5443D /* Pods-PlayoDemo.debug.xcconfig */,
+				B08022D144BB99F3933E090C /* Pods-PlayoDemo.release.xcconfig */,
+				BFEE84D0FB33BF22B9B95978 /* Pods-PlayoDemo-PlayoDemoUITests.debug.xcconfig */,
+				05CB3B4598D2E03D80F9545E /* Pods-PlayoDemo-PlayoDemoUITests.release.xcconfig */,
+				6837644CCAC9A14B72FB55C1 /* Pods-PlayoDemoTests.debug.xcconfig */,
+				FB7C05671DF9A004802041D4 /* Pods-PlayoDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DFAB502854AF35006EDA8B /* PlayoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DFAB7B2854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemo" */;
+			buildPhases = (
+				5791F035F96FA3B0CCFDF4BD /* [CP] Check Pods Manifest.lock */,
+				71DFAB4D2854AF35006EDA8B /* Sources */,
+				71DFAB4E2854AF35006EDA8B /* Frameworks */,
+				71DFAB4F2854AF35006EDA8B /* Resources */,
+				B203B96761AA81BB0E581D1D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayoDemo;
+			productName = PlayoDemo;
+			productReference = 71DFAB512854AF35006EDA8B /* PlayoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71DFAB662854AF38006EDA8B /* PlayoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DFAB7E2854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemoTests" */;
+			buildPhases = (
+				227B7AE9D8EB9F67BE56FD4D /* [CP] Check Pods Manifest.lock */,
+				71DFAB632854AF38006EDA8B /* Sources */,
+				71DFAB642854AF38006EDA8B /* Frameworks */,
+				71DFAB652854AF38006EDA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71DFAB692854AF38006EDA8B /* PBXTargetDependency */,
+			);
+			name = PlayoDemoTests;
+			productName = PlayoDemoTests;
+			productReference = 71DFAB672854AF38006EDA8B /* PlayoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71DFAB702854AF38006EDA8B /* PlayoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DFAB812854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemoUITests" */;
+			buildPhases = (
+				4F0B28DAEEEBE6F1845DF21A /* [CP] Check Pods Manifest.lock */,
+				71DFAB6D2854AF38006EDA8B /* Sources */,
+				71DFAB6E2854AF38006EDA8B /* Frameworks */,
+				71DFAB6F2854AF38006EDA8B /* Resources */,
+				541C3DFA71E3C22BFBF78126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71DFAB732854AF38006EDA8B /* PBXTargetDependency */,
+			);
+			name = PlayoDemoUITests;
+			productName = PlayoDemoUITests;
+			productReference = 71DFAB712854AF38006EDA8B /* PlayoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71DFAB492854AF35006EDA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					71DFAB502854AF35006EDA8B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					71DFAB662854AF38006EDA8B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 71DFAB502854AF35006EDA8B;
+					};
+					71DFAB702854AF38006EDA8B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 71DFAB502854AF35006EDA8B;
+					};
+				};
+			};
+			buildConfigurationList = 71DFAB4C2854AF35006EDA8B /* Build configuration list for PBXProject "PlayoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71DFAB482854AF35006EDA8B;
+			productRefGroup = 71DFAB522854AF35006EDA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71DFAB502854AF35006EDA8B /* PlayoDemo */,
+				71DFAB662854AF38006EDA8B /* PlayoDemoTests */,
+				71DFAB702854AF38006EDA8B /* PlayoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71DFAB4F2854AF35006EDA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DFAB612854AF38006EDA8B /* LaunchScreen.storyboard in Resources */,
+				71DFAB5E2854AF38006EDA8B /* Assets.xcassets in Resources */,
+				71DFAB5C2854AF35006EDA8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB652854AF38006EDA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB6F2854AF38006EDA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		227B7AE9D8EB9F67BE56FD4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0B28DAEEEBE6F1845DF21A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoDemo-PlayoDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541C3DFA71E3C22BFBF78126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo-PlayoDemoUITests/Pods-PlayoDemo-PlayoDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo-PlayoDemoUITests/Pods-PlayoDemo-PlayoDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo-PlayoDemoUITests/Pods-PlayoDemo-PlayoDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5791F035F96FA3B0CCFDF4BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B203B96761AA81BB0E581D1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo/Pods-PlayoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo/Pods-PlayoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoDemo/Pods-PlayoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DFAB4D2854AF35006EDA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E8D1C82854B89B0038CE27 /* NewsDataModel.swift in Sources */,
+				71DFAB592854AF35006EDA8B /* NewsVC.swift in Sources */,
+				71E8D1CE285511880038CE27 /* NetworkManger.swift in Sources */,
+				71DFAB552854AF35006EDA8B /* AppDelegate.swift in Sources */,
+				71DFAB572854AF35006EDA8B /* SceneDelegate.swift in Sources */,
+				71E8D1CB2854FFCE0038CE27 /* NewsDetailVC.swift in Sources */,
+				71E8D1C62854B5950038CE27 /* NewsTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB632854AF38006EDA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DFAB6C2854AF38006EDA8B /* PlayoDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DFAB6D2854AF38006EDA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DFAB762854AF38006EDA8B /* PlayoDemoUITests.swift in Sources */,
+				71DFAB782854AF38006EDA8B /* PlayoDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71DFAB692854AF38006EDA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DFAB502854AF35006EDA8B /* PlayoDemo */;
+			targetProxy = 71DFAB682854AF38006EDA8B /* PBXContainerItemProxy */;
+		};
+		71DFAB732854AF38006EDA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DFAB502854AF35006EDA8B /* PlayoDemo */;
+			targetProxy = 71DFAB722854AF38006EDA8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71DFAB5A2854AF35006EDA8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71DFAB5B2854AF35006EDA8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71DFAB5F2854AF38006EDA8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71DFAB602854AF38006EDA8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71DFAB792854AF38006EDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71DFAB7A2854AF38006EDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71DFAB7C2854AF38006EDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E162B4F583CB269A61A5443D /* Pods-PlayoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayoDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71DFAB7D2854AF38006EDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08022D144BB99F3933E090C /* Pods-PlayoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayoDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71DFAB7F2854AF38006EDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6837644CCAC9A14B72FB55C1 /* Pods-PlayoDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayoDemo.app/PlayoDemo";
+			};
+			name = Debug;
+		};
+		71DFAB802854AF38006EDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7C05671DF9A004802041D4 /* Pods-PlayoDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayoDemo.app/PlayoDemo";
+			};
+			name = Release;
+		};
+		71DFAB822854AF38006EDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEE84D0FB33BF22B9B95978 /* Pods-PlayoDemo-PlayoDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayoDemo;
+			};
+			name = Debug;
+		};
+		71DFAB832854AF38006EDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CB3B4598D2E03D80F9545E /* Pods-PlayoDemo-PlayoDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Augment.demo.PlayoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71DFAB4C2854AF35006EDA8B /* Build configuration list for PBXProject "PlayoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFAB792854AF38006EDA8B /* Debug */,
+				71DFAB7A2854AF38006EDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DFAB7B2854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFAB7C2854AF38006EDA8B /* Debug */,
+				71DFAB7D2854AF38006EDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DFAB7E2854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFAB7F2854AF38006EDA8B /* Debug */,
+				71DFAB802854AF38006EDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DFAB812854AF38006EDA8B /* Build configuration list for PBXNativeTarget "PlayoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DFAB822854AF38006EDA8B /* Debug */,
+				71DFAB832854AF38006EDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71DFAB492854AF35006EDA8B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_PlayoDemo_PlayoDemoUITests {
+  umbrella header "Pods-PlayoDemo-PlayoDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
